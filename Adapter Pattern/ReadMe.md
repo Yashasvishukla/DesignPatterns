@@ -25,3 +25,18 @@
      **- This implementation uses inheritance: the adapter inherits interface from both objects at the same time.**
 
 ![image](https://github.com/Yashasvishukla/DesignPatterns/assets/35268031/05141f39-e404-48f3-8112-7cdc9b75e420)
+
+
+Real-world scenario
+
+A real-world scenario where the Adapter pattern is used is in the area of payment processing. Different payment processors have different APIs. This can make it difficult for a merchant to accept payments from multiple processors.
+
+To solve this problem, a merchant can use a payment gateway. A payment gateway is a service that acts as an adapter between the merchant's website and the different payment processors. The merchant simply needs to integrate with the payment gateway's API. The payment gateway will then take care of translating the merchant's requests into the appropriate format for each payment processor.
+
+Benefits of the Adapter pattern
+
+The Adapter pattern offers a number of benefits, including:
+
+Increased flexibility: The Adapter pattern allows classes with incompatible interfaces to work together. This can make it easier to reuse existing code and to integrate third-party libraries into a codebase.
+Reduced coupling: The Adapter pattern helps to decouple classes from each other. This makes it easier to change or replace classes without affecting other classes in the system.
+Increased maintainability: The Adapter pattern can make code more maintainable by encapsulating the details of incompatible interfaces. This can make it easier to understand and modify the code.
