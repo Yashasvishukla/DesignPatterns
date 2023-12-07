@@ -1,0 +1,15 @@
+E:\DesignPatterns\Union_Find_Distinct_Join\Union_Find_Distinct_Join\bin\Debug\net6.0\Union_Find_Distinct_Join.exe
+E:\DesignPatterns\Union_Find_Distinct_Join\Union_Find_Distinct_Join\bin\Debug\net6.0\Union_Find_Distinct_Join.deps.json
+E:\DesignPatterns\Union_Find_Distinct_Join\Union_Find_Distinct_Join\bin\Debug\net6.0\Union_Find_Distinct_Join.runtimeconfig.json
+E:\DesignPatterns\Union_Find_Distinct_Join\Union_Find_Distinct_Join\bin\Debug\net6.0\Union_Find_Distinct_Join.dll
+E:\DesignPatterns\Union_Find_Distinct_Join\Union_Find_Distinct_Join\bin\Debug\net6.0\Union_Find_Distinct_Join.pdb
+E:\DesignPatterns\Union_Find_Distinct_Join\Union_Find_Distinct_Join\obj\Debug\net6.0\Union_Find_Distinct_Join.csproj.AssemblyReference.cache
+E:\DesignPatterns\Union_Find_Distinct_Join\Union_Find_Distinct_Join\obj\Debug\net6.0\Union_Find_Distinct_Join.GeneratedMSBuildEditorConfig.editorconfig
+E:\DesignPatterns\Union_Find_Distinct_Join\Union_Find_Distinct_Join\obj\Debug\net6.0\Union_Find_Distinct_Join.AssemblyInfoInputs.cache
+E:\DesignPatterns\Union_Find_Distinct_Join\Union_Find_Distinct_Join\obj\Debug\net6.0\Union_Find_Distinct_Join.AssemblyInfo.cs
+E:\DesignPatterns\Union_Find_Distinct_Join\Union_Find_Distinct_Join\obj\Debug\net6.0\Union_Find_Distinct_Join.csproj.CoreCompileInputs.cache
+E:\DesignPatterns\Union_Find_Distinct_Join\Union_Find_Distinct_Join\obj\Debug\net6.0\Union_Find_Distinct_Join.dll
+E:\DesignPatterns\Union_Find_Distinct_Join\Union_Find_Distinct_Join\obj\Debug\net6.0\refint\Union_Find_Distinct_Join.dll
+E:\DesignPatterns\Union_Find_Distinct_Join\Union_Find_Distinct_Join\obj\Debug\net6.0\Union_Find_Distinct_Join.pdb
+E:\DesignPatterns\Union_Find_Distinct_Join\Union_Find_Distinct_Join\obj\Debug\net6.0\Union_Find_Distinct_Join.genruntimeconfig.cache
+E:\DesignPatterns\Union_Find_Distinct_Join\Union_Find_Distinct_Join\obj\Debug\net6.0\ref\Union_Find_Distinct_Join.dll
