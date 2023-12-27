@@ -1,0 +1,47 @@
+Redis is an open source, In memory data structure store used as 
+1. database
+2. cache
+3. message broker
+4. streaming engine.
+
+Redis provides the data structure such as 
+1. strings
+2. hashes
+3. lists
+4. sets
+5. sorted sets with range queries
+6. bitmaps
+7. LUA scripting
+8. LRU eviction
+9. transaction
+10. different level of **On-Disk persitence**
+
+
+Redis also supports atomic operations on the types like
+1. appending to a string
+2. incrementing the value in a hash
+3. pushing elements to a list
+4. computing a set intersection, union and difference
+5. getting member with highest ranking in a sorted set.
+
+
+Redis works as an in-memory dataset. Depending on the use case
+1. It can persist the data either by periodically dumping the dataset to disk
+2. by appending each command to a disk based log.
+
+We can also disable persistence if we jsut need a feature-rich, networked, in-memory cache
+
+
+
+
+
+Redis also supports asynchronous replication. ----------> Read about it in more detail
+
+
+Redis also includes
+1. Transaction
+2. Pub/Sub
+3. LUA scripting
+4. Key with limited time to live
+5. LRU eviction of keys
+6. Automatic failover
