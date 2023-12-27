@@ -1,0 +1,82 @@
+Redis strings store
+1. Sequence of bytes including text
+2. Serialized objects
+3. binary arrays.
+
+Additionally let us implement counters and perform bitwise operations too. ----> TODO: Bitwise operations examples 
+
+The string datatype is useful for number of use cases like
+1. caching
+2. HTML fragments or pages
+
+
+SET command :-> performs assigment
+SET key value
+ex. SET user:1 Yashasvi
+1. SET will replace any exisiting value already stored into key
+
+Options available
+1. nx -> store a string value only if the key doesn't already exists. If the key already exists then it will return nil
+SET user:2 Shukla nx
+OK
+
+2. xx -> stores a string value only if the key exists. If the key doesn't exists then it will return nil
+SET user:2 Shukla_Update xx
+OK
+
+
+GET Command ->  retrive a string value (returns a string as value)
+GET user:1
+
+MSET command -> to set multiple keys as a single operation
+MSET user:1 Yash user:2 Shukla user:3 Hello
+OK
+
+MGET command -> retrieves multiple string values in a single operation
+MGET user:1 user:2 user:3
+1) "Yashasvi"
+2) "Shukla"
+3) (nil)
+4) "Hey_there"
+5) "How_are_you"
+
+
+INCR Command -> automatically increments counter stored at a given key
+INCR user:10 
+"1"  // This will also store integer as a string
+
+GET user:10
+"1"
+
+INCRBY command -> atomically increments (and decrements when passing a negative number) counters stored at a given key.
+INCRBY user:10 50
+"50"
+
+INCRBY user:10 -10
+"40"
+
+This is used for maintaing the visit_Count or maintaing the courter based situiations
+
+
+INCRBYFLOAT command -> increments the string representating a floating point number stored at key by the specified increment.
+INCRBYFLOAT user:50 10.3
+"10.3"
+
+
+EXISTS command -> to verify if the key exists
+EXISTS user:50
+(integer) 1
+
+
+EX :-> Provide the expiry time with the set command
+SET name:1 Yash EX 7200 (mili second)
+
+TTL key_name command :-> to check the remaining time to expire
+TTL name:2
+
+Limits
+By default, a single Redis string can be a maximum of 512 MB.
+
+Performance
+Most string operations are O(1), which means they're highly efficient. However, be careful with the SUBSTR, GETRANGE, and SETRANGE commands, which can be O(n).
+These random-access string commands may cause performance issues when dealing with large strings
