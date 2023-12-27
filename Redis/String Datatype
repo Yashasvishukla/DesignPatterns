@@ -68,6 +68,11 @@ EXISTS user:50
 (integer) 1
 
 
+EX :-> Provide the expiry time with the set command
+SET name:1 Yash EX 7200 (mili second)
+
+TTL key_name command :-> to check the remaining time to expire
+TTL name:2
 
 Limits
 By default, a single Redis string can be a maximum of 512 MB.
