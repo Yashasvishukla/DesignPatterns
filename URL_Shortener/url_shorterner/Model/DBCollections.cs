@@ -2,5 +2,6 @@
 
 public enum DBCollections
 {
-    
+    UserCollection,
+    UrlCollection
 }

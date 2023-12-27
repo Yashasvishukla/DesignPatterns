@@ -1,6 +1,12 @@
+using Microsoft.AspNetCore.Mvc;
+
+
 namespace url_shorterner.Controllers;
 
-public class KeyGeneratorController
+[ApiController]
+[Route("[controller]/api")]
+public class KeyGeneratorController: ControllerBase
 {
+   
     
 }

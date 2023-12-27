@@ -1,3 +1,7 @@
+
+using url_shorterner.Model.RepoInterfaces;
+using url_shorterner.Repository;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,8 +10,16 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<IUserRepository, UserRepository>();
+// builder.Services.AddSingleton<IUrlRepository, UrlRepository>();
+
+
+// Injection
 
 var app = builder.Build();
+
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
