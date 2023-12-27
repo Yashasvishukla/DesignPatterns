@@ -1,0 +1,25 @@
+**The JSON capabilities of Redis Stack provides JSON support for Redis.**
+Allows
+1. Store
+2. Update
+3. retrieve Json Values in Redis database.
+
+
+
+JSON.SET command :-> sets a Redis key with a Json value. 
+it accepts all JSON value types.
+
+JSON.SET animal $ '"dog"'
+
+JSON.GET :-> reterive the value for the key
+JSON.GET animal
+"\"dog\""    -> stringify version of the JSON object
+
+JSON.TYPE :-> gives the type of the object
+JSON.TYPE animal 
+"string"
+
+
+JSON.STRLEN :-> Give the length of the 
+JSON.STRLEN animal 
+(integer) 3
