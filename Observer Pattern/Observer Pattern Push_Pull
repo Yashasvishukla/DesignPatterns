@@ -1,0 +1,37 @@
+
+
+Normally we have 
+
+            Push data
+Subject  -------------> Oberser
+
+Advantages:
+1. Subject just need to know about the Observer and notify the observers with the State on the State change. 
+
+Disadvantages:
+1. If there is any modification to state of subject we might end up modifying all the observers update implementation. 
+2. The Subject will push every thing because it doesn't know what the observer wants particularly. (May end up with pushing extra information)
+
+What if
+              Pulls data
+Subject <---------------------- Observer
+
+Instead of subject pushing the data what if the observers pulls the data when they want
+and more importantly they will pull the data that they require instead of pulling everything.
+
+There’s so many different
+kinds of us Observers, there’s no way we can
+anticipate everything we need. Just let us come
+to you to get the state we need. That way, if
+some of us only need a little bit of state, we
+aren’t forced to get it all.
+
+
+It also makes things
+easier to modify later. Say, for example, you
+expand yourself and add some more state, well
+if you use pull, you don’t have to go around
+and change the update calls on every observer,
+you just need to change yourself to allow more
+getter methods to access our additional state.
+
