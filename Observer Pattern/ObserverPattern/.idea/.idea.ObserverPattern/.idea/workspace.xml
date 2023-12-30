@@ -8,34 +8,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a32c2560-0383-4739-9bba-5e1260f5e0bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ObserverPattern/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverPattern.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverPattern/WeatherStationV2/Displays/CurrentConditionDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverPattern/WeatherStationV2/Displays/ForecastDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverPattern/WeatherStationV2/Displays/HeatIndexDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverPattern/WeatherStationV2/Displays/IDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverPattern/WeatherStationV2/Displays/StatisticsDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverPattern/WeatherStationV2/IObserver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverPattern/WeatherStationV2/IState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverPattern/WeatherStationV2/ISubject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverPattern/WeatherStationV2/States/WeatherState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverPattern/WeatherStationV2/WeatherData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/WeatherStationV3/CurrentConditionDisplay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/WeatherStationV3/ForecastDisplay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/WeatherStationV3/Unsubscribe.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/WeatherStationV3/WeatherData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.$Observer Design Pattern.drawio.bkp" beforeDir="false" afterPath="$PROJECT_DIR$/../.$Observer Design Pattern.drawio.bkp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Observer Design Pattern.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer Design Pattern.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ObserverPattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ObserverPattern/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ObserverPattern/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObserverPattern/WeatherStationV1/WeatherDataV1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/WeatherStationV1/WeatherDataV1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObserverPattern/WeatherStationV2/States/WeatherState.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ObserverPattern/bin/Debug/net6.0/ObserverPattern.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/bin/Debug/net6.0/ObserverPattern.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ObserverPattern/bin/Debug/net6.0/ObserverPattern.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/bin/Debug/net6.0/ObserverPattern.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObserverPattern/obj/Debug/net6.0/ObserverPattern.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/obj/Debug/net6.0/ObserverPattern.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ObserverPattern/obj/Debug/net6.0/ObserverPattern.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/obj/Debug/net6.0/ObserverPattern.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ObserverPattern/obj/Debug/net6.0/ObserverPattern.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/obj/Debug/net6.0/ObserverPattern.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ObserverPattern/obj/Debug/net6.0/ObserverPattern.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/obj/Debug/net6.0/ObserverPattern.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ObserverPattern/obj/Debug/net6.0/ref/ObserverPattern.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/obj/Debug/net6.0/ref/ObserverPattern.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ObserverPattern/obj/Debug/net6.0/refint/ObserverPattern.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/obj/Debug/net6.0/refint/ObserverPattern.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObserverPattern/obj/ObserverPattern.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/obj/ObserverPattern.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObserverPattern/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObserverPattern/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Redis/Redis-playground/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Redis/Redis-playground/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Stratagy Pattern/.$Stratagy Pattern.drawio.bkp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Stratagy Pattern/.$Stratagy Pattern.drawio.bkp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Stratagy Pattern/DuckSimulator/DuckSimulator/Duck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Stratagy Pattern/DuckSimulator/DuckSimulator/Duck.cs" afterDir="false" />
@@ -60,6 +51,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1876245c92164f36b06f67c8515c73e0a23480/_ea5d2/IObservable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d4c127b7bdff9d3920b7638c2683ce71bccc9c6f640d9257bf8aecf60a6aa44/DiagnosticListener.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ObserverPattern/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ObserverPattern/WeatherStationV3/WeatherData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -126,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703821430217</updated>
-      <workItem from="1703821431476" duration="12214000" />
+      <workItem from="1703821431476" duration="21460000" />
     </task>
     <servers />
   </component>
@@ -152,6 +144,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ObserverPattern/WeatherStationV3/Unsubscribe.cs</url>
+          <line>16</line>
+          <properties documentPath="E:\DesignPatterns\Observer Pattern\ObserverPattern\ObserverPattern\WeatherStationV3\Unsubscribe.cs" initialLine="16" containingFunctionPresentation="Method 'Dispose'">
+            <startOffsets>
+              <option value="446" />
+            </startOffsets>
+            <endOffsets>
+              <option value="475" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
