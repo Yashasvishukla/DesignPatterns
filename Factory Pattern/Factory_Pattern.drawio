@@ -1,0 +1,429 @@
+<mxfile host="Electron" modified="2024-01-01T06:53:49.532Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="EtnHYFqwXftJAVLW4OpU" version="21.2.8" type="device">
+  <diagram name="Page-1" id="wRIxP7jwtYT1Glj8DmLt">
+    <mxGraphModel dx="2144" dy="2321" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-78" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-157" y="1637" width="792" height="422" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-29" value="&lt;h1&gt;Simple Factory&lt;/h1&gt;&lt;div&gt;The simple factory isn&#39;t actually a desing pattern. It&#39;s more of a programming idiom.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-216" y="-325" width="837" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-30" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PizzaStore&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ orderPizza()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="-55" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-31" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SimplePizzaFactory&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createPizza()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="204" y="-47" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-32" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;i&gt;Pizza&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ prepare()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ bake()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ cut()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ box()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="509" y="-67" width="160" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-33" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.002;entryY=0.653;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-30" target="kn2AHsExc2xSlCUWb4eK-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="77" y="-8" as="sourcePoint" />
+            <mxPoint x="207" y="-2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-34" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-31" target="kn2AHsExc2xSlCUWb4eK-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="363" y="-4" as="sourcePoint" />
+            <mxPoint x="545" y="1" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-36" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CheesePizza&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="362" y="133" width="161" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-37" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ClamPizza&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="542" y="133" width="161" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-38" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;VeggiePizza&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="724" y="133" width="161" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-39" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PapperoniPizza&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="185" y="136" width="161" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-40" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-39" target="kn2AHsExc2xSlCUWb4eK-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="178" y="-20" as="sourcePoint" />
+            <mxPoint x="338" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-41" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.107;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-36" target="kn2AHsExc2xSlCUWb4eK-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="378" y="152" as="sourcePoint" />
+            <mxPoint x="621" y="35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-42" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;exitX=0.46;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-37" target="kn2AHsExc2xSlCUWb4eK-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="561" y="123" as="sourcePoint" />
+            <mxPoint x="804" y="6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-43" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;exitX=0.458;exitY=0.022;exitDx=0;exitDy=0;entryX=0.999;entryY=0.7;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-38" target="kn2AHsExc2xSlCUWb4eK-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="655" y="-20" as="sourcePoint" />
+            <mxPoint x="898" y="-137" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-44" value="This is the client of the&lt;br&gt;factory. PizzaStore now goes through &lt;br&gt;the Simple PizzaFactory &lt;br&gt;to get the instance of pizza" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="51" width="283" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-45" value="This is the factory where we create&lt;br&gt;the pizza. It should be the only part of our application&lt;br&gt;that refers to concrete pizza classes." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="85" y="-174" width="392" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-46" value="This is the product of factory: Pizza!!" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="564" y="-135" width="276" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-47" value="These are our concrete products.&lt;br&gt;Each product needs to implement the pizza interface and be concrete.&lt;br&gt;As long as that&#39;s the case it can be created by the factory and handed back to client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="174" y="283" width="610" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-48" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;Pizza orderPizza(String type) {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;Pizza pizza;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;if (type.equals(“cheese”)) {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;pizza = new CheesePizza();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;}&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;else if (type.equals(“greek”) {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;pizza = new GreekPizza();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;}&amp;nbsp;else if (type.equals(“pepperoni”) {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;pizza = new PepperoniPizza();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;} else if (type.equals(“clam”) {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;pizza = new ClamPizza();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;} else if (type.equals(“veggie”) {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;pizza = new VeggiePizza();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;}&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;pizza.prepare();&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;pizza.bake();&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;pizza.cut();&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;pizza.box();&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;return pizza;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;}&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="-949" width="473" height="511" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-49" value="This code is NOT closed for&lt;br&gt;modification. If the pizza&lt;br&gt;shop chages its pizza offering&lt;br&gt;we have to get into this code and modify it." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="268" y="-933" width="320" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-50" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.186;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.611;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-48" target="kn2AHsExc2xSlCUWb4eK-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="351" y="-828" as="sourcePoint" />
+            <mxPoint x="401" y="-878" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="297" y="-834" />
+              <mxPoint x="384" y="-718" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-51" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="-755" as="sourcePoint" />
+            <mxPoint x="424" y="-755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-52" value="This is what&lt;br&gt;varies. As the pizza&lt;br&gt;selection changes over time,&lt;br&gt;We will have to modify this code over&amp;nbsp;&lt;br&gt;and over" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="425" y="-801" width="285" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-53" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="304" y="436" as="sourcePoint" />
+            <mxPoint x="304" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-54" value="&lt;h1&gt;Customization&lt;/h1&gt;&lt;div&gt;What if we have to offer different styles of Pizza like NewYorkPizza, ChicagoPizza and CaliforniaPizza&amp;nbsp;&lt;/div&gt;&lt;div&gt;Additionly we have to bring the customization to way they prepare the pizza, bake , cut and may be using third party boxing service.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-196" y="710" width="956" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-55" value="Pizza Store" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-154" y="1059" width="148" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-67" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-56" target="kn2AHsExc2xSlCUWb4eK-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-68" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-56" target="kn2AHsExc2xSlCUWb4eK-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-69" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.014;entryY=0.352;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-56" target="kn2AHsExc2xSlCUWb4eK-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-56" value="NYPizzaFactory" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="354" y="906" width="148" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-57" value="ChicagoPizzaFactory" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1202" width="155" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-58" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-55" target="kn2AHsExc2xSlCUWb4eK-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="304" y="1064" as="sourcePoint" />
+            <mxPoint x="354" y="1014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-60" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-55" target="kn2AHsExc2xSlCUWb4eK-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-18" y="1091" as="sourcePoint" />
+            <mxPoint x="364" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-61" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="710" y="875" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-62" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="714" y="968" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-63" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="714" y="1074" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-64" value="NYCheesePizza" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="814" y="906" width="135" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-65" value="NYVeggiePizza" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="811" y="999" width="128" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-66" value="NYClamPizza" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="814" y="1106" width="117" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-70" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="1252" as="sourcePoint" />
+            <mxPoint x="710" y="1214" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-72" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="519" y="1290" as="sourcePoint" />
+            <mxPoint x="714" y="1308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-73" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="529" y="1300" as="sourcePoint" />
+            <mxPoint x="691" y="1398" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-74" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="202" y="1355" as="sourcePoint" />
+            <mxPoint x="207" y="941" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-75" value="&lt;h1&gt;Framework of the Pizza store&lt;/h1&gt;&lt;div&gt;We are going to put the createPizza() method back to PizzaStore&lt;/div&gt;&lt;div&gt;but this time as an abstract method, and then create a PizzaStore subclass for each regional Style.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-216" y="1451" width="912" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-76" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;public abstract class PizzaStore {&lt;/span&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;public Pizza orderPizza(string type) {&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Pizza pizza;&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;pizza = createPizza(type)&#39;&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;pizza.prepare();&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;pizza.bake();&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;pizza.cut();&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;pizza.box();&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;// These all methods are pizza specific.&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;// PizzaStore does&#39;t know about the&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;implementation&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;abstract Pizza createPizza(string type);&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;}&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-133" y="1661" width="442" height="354" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-77" value="Factory method is now an abstract in pizza" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="306" y="1950" width="321" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-79" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PizzaStore&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;i&gt;createPizza(string Type)&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ orderPizza(string Type)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="156.5" y="2126" width="249" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-80" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;NYStylePizza&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createPizza(string Type)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="2363" width="161" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-81" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ChicagoStylePizza&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createPizza(string Type)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="204" y="2361" width="161" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-82" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CaliforniaStylePizza&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createPizza(string Type)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="429" y="2363" width="161" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-83" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-80" target="kn2AHsExc2xSlCUWb4eK-79">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="249" y="2288" as="sourcePoint" />
+            <mxPoint x="409" y="2288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-84" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-81" target="kn2AHsExc2xSlCUWb4eK-79">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="81" y="2373" as="sourcePoint" />
+            <mxPoint x="229" y="2251" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-85" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-82" target="kn2AHsExc2xSlCUWb4eK-79">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="295" y="2371" as="sourcePoint" />
+            <mxPoint x="291" y="2251" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-89" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-88" target="kn2AHsExc2xSlCUWb4eK-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-88" value="public Pizza createPizza(string type) {&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;if (type.equals(“cheese”)) {&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;pizza = new NYCheesePizza();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;}&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;else if (type.equals(“greek”) {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;pizza = new NYGreekPizza();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;}&amp;nbsp;else if (type.equals(“pepperoni”) {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;pizza = new NYPepperoniPizza();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;} else if (type.equals(“clam”) {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;pizza = new NYClamPizza();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;} else if (type.equals(“veggie”) {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;pizza = new NYVeggiePizza();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;}&lt;/div&gt;&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-156" y="2497" width="356" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-91" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-90" target="kn2AHsExc2xSlCUWb4eK-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-90" value="public Pizza createPizza(string type) {&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;if (type.equals(“cheese”)) {&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;pizza = new CCheesePizza();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;}&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;else if (type.equals(“greek”) {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;pizza = new CGreekPizza();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;}&amp;nbsp;else if (type.equals(“pepperoni”) {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;pizza = new CPepperoniPizza();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;} else if (type.equals(“clam”) {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;pizza = new CClamPizza();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;} else if (type.equals(“veggie”) {&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;pizza = new CVeggiePizza();&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;}&lt;/div&gt;&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="368" y="2537" width="356" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-93" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-92" target="kn2AHsExc2xSlCUWb4eK-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525.3072294347426" y="3079.5294117647063" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-92" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PizzaStore&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createPizza()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ orderPizza()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-156" y="3020" width="224" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-94" value="OrderPizza() is defined in the abstract PizzaStore&lt;br&gt;, not the subclass. so, the method has no idea which &lt;br&gt;subclass is actually running&lt;br&gt;the code and making the pizzas" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="217" y="3050" width="390" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-95" value="This way we encapsulates the things here" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-25" y="3171" width="315" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-96" value="&lt;div&gt;&lt;b&gt;With just a couple of transformations to the PizzaStore we’ve gone from&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;having an object handle the instantiation of our concrete classes to a set of&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;subclasses that are now taking on that responsibility. Let’s take a closer look&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-169" y="3360" width="883" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-97" value="&lt;div&gt;&lt;b&gt;A factory method handles object creation and encapsulates it in&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;a subclass. This decouples the client code in the superclass from&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;the object creation code in the subclass.&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-160.5" y="3520" width="883" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-98" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;abstract Product factoryMethod(string Type)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-126" y="3686" width="883" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-99" value="A factory method is&amp;nbsp;&lt;br&gt;abstract so the subclasses are&lt;br&gt;counter on to handle object creation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-148" y="3844" width="272" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-100" value="A factory method returns a Product&lt;br&gt;that is typically used within methods defined in&lt;br&gt;the superclass." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="156.5" y="3846" width="346" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-101" value="A factory method isolated the client (code in the&lt;br&gt;superclass like OrderPizza()) from knowing what kind&lt;br&gt;of concrete Product is actually created." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="542" y="3846" width="395" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-102" value="&lt;h1&gt;Factory Method Pattern&lt;/h1&gt;&lt;div&gt;&lt;b&gt;All factory patterns ecapsulated object creation. The factory method pattern encapsulates object creation by letting&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;subclasses decide what object to create.&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-157" y="4084" width="853" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-104" value="&lt;b&gt;The Creater Classes&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-160.5" y="4309" width="172" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-110" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-105" target="kn2AHsExc2xSlCUWb4eK-111">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-32" y="4441" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-105" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;i&gt;PizzaStore&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;i&gt;createPizza(type)&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;+ &lt;/i&gt;orderPizza(type)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="222" y="4401" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-106" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;NYStore&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ createPizza(): Type&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="4596" width="160" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-107" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ChicagoPizzaStore&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ createPizza(): Type&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="382" y="4599" width="160" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-108" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-106" target="kn2AHsExc2xSlCUWb4eK-105">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="4534" as="sourcePoint" />
+            <mxPoint x="400" y="4534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-109" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-107" target="kn2AHsExc2xSlCUWb4eK-105">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="4606" as="sourcePoint" />
+            <mxPoint x="254" y="4501" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-111" value="Abstract Creator.&lt;br&gt;It defines an abstract factory method&lt;br&gt;that the subclasses implement to produce products" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-389" y="4408" width="379" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-113" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-112" target="kn2AHsExc2xSlCUWb4eK-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-112" value="Often the creator contains code&lt;br&gt;that depends on an abstract product,&lt;br&gt;which is produced by a subclass. The creator&lt;br&gt;never really knows which concrete product was produced." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="616" y="4393" width="428" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-114" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;i&gt;Pizza&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="245.5" y="4885" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-115" value="&lt;b&gt;The prodct classes&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-157" y="4764" width="163" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-116" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;NYStyleCheesePizza&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="22" y="5078" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-117" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Pizza&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="78" y="5109" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-118" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Pizza&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="151" y="5158" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-119" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ChacigoStyleCheesePizza&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="435" y="5096" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-120" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Pizza&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="491" y="5127" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-121" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Pizza&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="564" y="5176" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-122" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-116" target="kn2AHsExc2xSlCUWb4eK-114">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="5114" as="sourcePoint" />
+            <mxPoint x="400" y="5114" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-123" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-119" target="kn2AHsExc2xSlCUWb4eK-114">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="112" y="5088" as="sourcePoint" />
+            <mxPoint x="336" y="4985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-125" value="These are the concrete products,&lt;br&gt;all the pizzas that are produced by our stores" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-374" y="5092" width="337" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-126" value="&lt;h1&gt;Another perspective: Parallel class hierarchies&lt;/h1&gt;&lt;p&gt;Another way to look at this pattern as a framework is in the way it encapsulates product knowledge into each creator&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-203" y="5403" width="672" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-127" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;i&gt;Pizza&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-78.5" y="5672" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-128" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;NYStyleCheesePizza&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-302" y="5865" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-129" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Pizza&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-246" y="5896" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-130" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Pizza&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-173" y="5945" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-131" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ChacigoStyleCheesePizza&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="111" y="5883" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-132" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Pizza&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="167" y="5914" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-133" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Pizza&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="5963" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-134" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-128" target="kn2AHsExc2xSlCUWb4eK-127">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-84" y="5901" as="sourcePoint" />
+            <mxPoint x="76" y="5901" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-135" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-131" target="kn2AHsExc2xSlCUWb4eK-127">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-212" y="5875" as="sourcePoint" />
+            <mxPoint x="12" y="5772" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-137" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;i&gt;PizzaStore&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;i&gt;createPizza(type)&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;+ &lt;/i&gt;orderPizza(type)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="713" y="5672" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-138" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;NYStore&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ createPizza(): Type&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="556" y="5909.5" width="160" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-139" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ChicagoPizzaStore&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ createPizza(): Type&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="893" y="5909.5" width="160" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-140" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-138" target="kn2AHsExc2xSlCUWb4eK-137">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="731" y="5805" as="sourcePoint" />
+            <mxPoint x="891" y="5805" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-141" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-139" target="kn2AHsExc2xSlCUWb4eK-137">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="611" y="5877" as="sourcePoint" />
+            <mxPoint x="745" y="5772" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-142" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kn2AHsExc2xSlCUWb4eK-127" target="kn2AHsExc2xSlCUWb4eK-137">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="295" y="5771" as="sourcePoint" />
+            <mxPoint x="345" y="5721" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-143" value="how these class hierarchies are parallel:&lt;br&gt;both have abstract classes that are extened by concrete classes,&lt;br&gt;which know about specific implementation for NY and chicago" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="130" y="6123" width="477" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-144" value="NYPizzastore encapsulates all the&lt;br&gt;knowledge about how to make NY pizza" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="482" y="6003" width="302" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-145" value="ChicagoPizzastore encapsulates all the&lt;br&gt;knowledge about how to make Chicago pizza" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="861" y="6004" width="339" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kn2AHsExc2xSlCUWb4eK-146" value="&lt;h1&gt;Factory method defination&lt;/h1&gt;&lt;div&gt;Factory method pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate.&lt;/div&gt;&lt;div&gt;Factory method lets a class defer instantiation to subclasses.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-254" y="6418" width="1073" height="179" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

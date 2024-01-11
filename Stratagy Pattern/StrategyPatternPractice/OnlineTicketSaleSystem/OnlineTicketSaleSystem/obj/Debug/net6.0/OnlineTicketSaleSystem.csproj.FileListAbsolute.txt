@@ -1,0 +1,15 @@
+E:\DesignPatterns\Stratagy Pattern\StrategyPatternPractice\OnlineTicketSaleSystem\OnlineTicketSaleSystem\bin\Debug\net6.0\OnlineTicketSaleSystem.exe
+E:\DesignPatterns\Stratagy Pattern\StrategyPatternPractice\OnlineTicketSaleSystem\OnlineTicketSaleSystem\bin\Debug\net6.0\OnlineTicketSaleSystem.deps.json
+E:\DesignPatterns\Stratagy Pattern\StrategyPatternPractice\OnlineTicketSaleSystem\OnlineTicketSaleSystem\bin\Debug\net6.0\OnlineTicketSaleSystem.runtimeconfig.json
+E:\DesignPatterns\Stratagy Pattern\StrategyPatternPractice\OnlineTicketSaleSystem\OnlineTicketSaleSystem\bin\Debug\net6.0\OnlineTicketSaleSystem.dll
+E:\DesignPatterns\Stratagy Pattern\StrategyPatternPractice\OnlineTicketSaleSystem\OnlineTicketSaleSystem\bin\Debug\net6.0\OnlineTicketSaleSystem.pdb
+E:\DesignPatterns\Stratagy Pattern\StrategyPatternPractice\OnlineTicketSaleSystem\OnlineTicketSaleSystem\obj\Debug\net6.0\OnlineTicketSaleSystem.csproj.AssemblyReference.cache
+E:\DesignPatterns\Stratagy Pattern\StrategyPatternPractice\OnlineTicketSaleSystem\OnlineTicketSaleSystem\obj\Debug\net6.0\OnlineTicketSaleSystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\DesignPatterns\Stratagy Pattern\StrategyPatternPractice\OnlineTicketSaleSystem\OnlineTicketSaleSystem\obj\Debug\net6.0\OnlineTicketSaleSystem.AssemblyInfoInputs.cache
+E:\DesignPatterns\Stratagy Pattern\StrategyPatternPractice\OnlineTicketSaleSystem\OnlineTicketSaleSystem\obj\Debug\net6.0\OnlineTicketSaleSystem.AssemblyInfo.cs
+E:\DesignPatterns\Stratagy Pattern\StrategyPatternPractice\OnlineTicketSaleSystem\OnlineTicketSaleSystem\obj\Debug\net6.0\OnlineTicketSaleSystem.csproj.CoreCompileInputs.cache
+E:\DesignPatterns\Stratagy Pattern\StrategyPatternPractice\OnlineTicketSaleSystem\OnlineTicketSaleSystem\obj\Debug\net6.0\OnlineTicketSaleSystem.dll
+E:\DesignPatterns\Stratagy Pattern\StrategyPatternPractice\OnlineTicketSaleSystem\OnlineTicketSaleSystem\obj\Debug\net6.0\refint\OnlineTicketSaleSystem.dll
+E:\DesignPatterns\Stratagy Pattern\StrategyPatternPractice\OnlineTicketSaleSystem\OnlineTicketSaleSystem\obj\Debug\net6.0\OnlineTicketSaleSystem.pdb
+E:\DesignPatterns\Stratagy Pattern\StrategyPatternPractice\OnlineTicketSaleSystem\OnlineTicketSaleSystem\obj\Debug\net6.0\OnlineTicketSaleSystem.genruntimeconfig.cache
+E:\DesignPatterns\Stratagy Pattern\StrategyPatternPractice\OnlineTicketSaleSystem\OnlineTicketSaleSystem\obj\Debug\net6.0\ref\OnlineTicketSaleSystem.dll
