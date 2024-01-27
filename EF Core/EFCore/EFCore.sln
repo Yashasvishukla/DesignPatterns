@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore", "EFCore.csproj", "{59B28484-8897-4FFE-84EE-365297519363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "..\Infra\Infra.csproj", "{8E7057DC-53A9-4EED-AF64-7B92424853C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59B28484-8897-4FFE-84EE-365297519363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B28484-8897-4FFE-84EE-365297519363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B28484-8897-4FFE-84EE-365297519363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B28484-8897-4FFE-84EE-365297519363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7057DC-53A9-4EED-AF64-7B92424853C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7057DC-53A9-4EED-AF64-7B92424853C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7057DC-53A9-4EED-AF64-7B92424853C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7057DC-53A9-4EED-AF64-7B92424853C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

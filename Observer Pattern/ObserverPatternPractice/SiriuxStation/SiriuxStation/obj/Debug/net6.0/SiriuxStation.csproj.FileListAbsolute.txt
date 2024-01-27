@@ -1,0 +1,5 @@
+E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxStation\obj\Debug\net6.0\SiriuxStation.csproj.AssemblyReference.cache
+E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxStation\obj\Debug\net6.0\SiriuxStation.GeneratedMSBuildEditorConfig.editorconfig
+E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxStation\obj\Debug\net6.0\SiriuxStation.AssemblyInfoInputs.cache
+E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxStation\obj\Debug\net6.0\SiriuxStation.AssemblyInfo.cs
+E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxStation\obj\Debug\net6.0\SiriuxStation.csproj.CoreCompileInputs.cache

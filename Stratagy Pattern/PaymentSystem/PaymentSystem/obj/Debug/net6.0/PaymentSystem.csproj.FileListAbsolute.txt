@@ -1,0 +1,15 @@
+E:\DesignPatterns\Stratagy Pattern\PaymentSystem\PaymentSystem\bin\Debug\net6.0\PaymentSystem.exe
+E:\DesignPatterns\Stratagy Pattern\PaymentSystem\PaymentSystem\bin\Debug\net6.0\PaymentSystem.deps.json
+E:\DesignPatterns\Stratagy Pattern\PaymentSystem\PaymentSystem\bin\Debug\net6.0\PaymentSystem.runtimeconfig.json
+E:\DesignPatterns\Stratagy Pattern\PaymentSystem\PaymentSystem\bin\Debug\net6.0\PaymentSystem.dll
+E:\DesignPatterns\Stratagy Pattern\PaymentSystem\PaymentSystem\bin\Debug\net6.0\PaymentSystem.pdb
+E:\DesignPatterns\Stratagy Pattern\PaymentSystem\PaymentSystem\obj\Debug\net6.0\PaymentSystem.csproj.AssemblyReference.cache
+E:\DesignPatterns\Stratagy Pattern\PaymentSystem\PaymentSystem\obj\Debug\net6.0\PaymentSystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\DesignPatterns\Stratagy Pattern\PaymentSystem\PaymentSystem\obj\Debug\net6.0\PaymentSystem.AssemblyInfoInputs.cache
+E:\DesignPatterns\Stratagy Pattern\PaymentSystem\PaymentSystem\obj\Debug\net6.0\PaymentSystem.AssemblyInfo.cs
+E:\DesignPatterns\Stratagy Pattern\PaymentSystem\PaymentSystem\obj\Debug\net6.0\PaymentSystem.csproj.CoreCompileInputs.cache
+E:\DesignPatterns\Stratagy Pattern\PaymentSystem\PaymentSystem\obj\Debug\net6.0\PaymentSystem.dll
+E:\DesignPatterns\Stratagy Pattern\PaymentSystem\PaymentSystem\obj\Debug\net6.0\refint\PaymentSystem.dll
+E:\DesignPatterns\Stratagy Pattern\PaymentSystem\PaymentSystem\obj\Debug\net6.0\PaymentSystem.pdb
+E:\DesignPatterns\Stratagy Pattern\PaymentSystem\PaymentSystem\obj\Debug\net6.0\PaymentSystem.genruntimeconfig.cache
+E:\DesignPatterns\Stratagy Pattern\PaymentSystem\PaymentSystem\obj\Debug\net6.0\ref\PaymentSystem.dll

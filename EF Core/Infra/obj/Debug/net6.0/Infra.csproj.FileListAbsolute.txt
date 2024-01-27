@@ -1,0 +1,14 @@
+E:\DesignPatterns\EF Core\Infra\bin\Debug\net6.0\Infra.deps.json
+E:\DesignPatterns\EF Core\Infra\bin\Debug\net6.0\Infra.runtimeconfig.json
+E:\DesignPatterns\EF Core\Infra\bin\Debug\net6.0\Infra.dll
+E:\DesignPatterns\EF Core\Infra\bin\Debug\net6.0\Infra.pdb
+E:\DesignPatterns\EF Core\Infra\obj\Debug\net6.0\Infra.csproj.AssemblyReference.cache
+E:\DesignPatterns\EF Core\Infra\obj\Debug\net6.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+E:\DesignPatterns\EF Core\Infra\obj\Debug\net6.0\Infra.AssemblyInfoInputs.cache
+E:\DesignPatterns\EF Core\Infra\obj\Debug\net6.0\Infra.AssemblyInfo.cs
+E:\DesignPatterns\EF Core\Infra\obj\Debug\net6.0\Infra.csproj.CoreCompileInputs.cache
+E:\DesignPatterns\EF Core\Infra\obj\Debug\net6.0\Infra.dll
+E:\DesignPatterns\EF Core\Infra\obj\Debug\net6.0\refint\Infra.dll
+E:\DesignPatterns\EF Core\Infra\obj\Debug\net6.0\Infra.pdb
+E:\DesignPatterns\EF Core\Infra\obj\Debug\net6.0\Infra.genruntimeconfig.cache
+E:\DesignPatterns\EF Core\Infra\obj\Debug\net6.0\ref\Infra.dll
