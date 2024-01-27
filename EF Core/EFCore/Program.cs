@@ -1,5 +1,6 @@
 
 
+using Infra.Dish;
 using Infra.LegoModels;
 using Infra.VideoGameManager;
 using Microsoft.EntityFrameworkCore;
@@ -26,6 +27,9 @@ builder.Services.AddDbContext<VideoGameDataContext>(options =>
 
 builder.Services.AddDbContext<BrickContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("BrickConnection")));
+
+builder.Services.AddDbContext<CookbookContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("CookbookConnection")));
 
 
 builder.Services.AddControllers();
