@@ -40,6 +40,10 @@ public class TransactionController: ControllerBase
             // Second Part of the transaction
 
             await _context.Database.ExecuteSqlRawAsync("insert into Data values (1,2,3,45)");
+            
+            
+            // if everything works fine then we can commit the transactions
+            await _context.Database.CommitTransactionAsync();
         }
         catch (SqliteException e)
         {
