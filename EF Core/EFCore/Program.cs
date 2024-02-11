@@ -46,6 +46,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseExceptionHandler(build => build.Run(async context =>
+{
+    context.Response.StatusCode = 500;
+    await context.Response.WriteAsync("Exception has occured");
+}));
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

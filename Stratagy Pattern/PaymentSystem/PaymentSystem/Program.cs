@@ -1,3 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello, World!");
+
+using PaymentSystem;
+
+var payment = new PaymentService();
+var finalAmount = payment.CalculateFinalAmount(500, PaymentMode.NetBanking);
+Console.WriteLine(finalAmount);

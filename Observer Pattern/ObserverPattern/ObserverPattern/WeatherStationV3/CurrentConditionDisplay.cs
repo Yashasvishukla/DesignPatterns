@@ -1,5 +1,4 @@
-﻿using ObserverPattern.WeatherStationV2;
-using ObserverPattern.WeatherStationV2.Displays;
+﻿using ObserverPattern.WeatherStationV2.Displays;
 
 namespace ObserverPattern.WeatherStationV3;
 
@@ -9,7 +8,7 @@ public class CurrentConditionDisplay: IObserver<WeatherData>, IDisplay
     private float _humidity;
     private readonly IDisposable _disposable;
 
-    public CurrentConditionDisplay(WeatherData weatherData)
+    public CurrentConditionDisplay(IWeatherObservable<WeatherData> weatherData)
     {
         _disposable = weatherData.Subscribe(this);
     }

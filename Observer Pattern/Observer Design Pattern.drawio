@@ -1,14 +1,14 @@
-<mxfile host="Electron" modified="2023-12-29T03:40:59.730Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="zyqzgLpu826jzZBOfGBp" version="21.2.8" type="device">
+<mxfile host="Electron" modified="2023-12-29T06:49:34.339Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="W6mHaqsJEj4bDcDDsxPk" version="21.2.8" type="device">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1221" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2048" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="jA8gvH-j2A2Ros2uG4v_-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Subject&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ registerObserver()&lt;br&gt;+ removeObserver()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ notifyObserver&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="80" width="190" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="jA8gvH-j2A2Ros2uG4v_-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Observer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ update()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="560" y="88" width="190" height="110" as="geometry" />
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Observer&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ update()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="110" width="190" height="72" as="geometry" />
         </mxCell>
         <mxCell id="jA8gvH-j2A2Ros2uG4v_-7" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=-0.011;entryY=0.566;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jA8gvH-j2A2Ros2uG4v_-5" target="jA8gvH-j2A2Ros2uG4v_-6">
           <mxGeometry x="-1" relative="1" as="geometry">
@@ -20,7 +20,7 @@
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jA8gvH-j2A2Ros2uG4v_-9" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="585" y="128" width="30" height="30" as="geometry" />
+          <mxGeometry x="520" y="120" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jA8gvH-j2A2Ros2uG4v_-10" value="Observers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="414" y="120" width="100" height="30" as="geometry" />
@@ -50,13 +50,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jA8gvH-j2A2Ros2uG4v_-17" value="All the potential observers needs to implement the observer interface.&lt;br&gt;It has update() that gets called when the subject&#39;s state changes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="460" y="-50" width="520" height="50" as="geometry" />
+          <mxGeometry x="520" y="40" width="520" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jA8gvH-j2A2Ros2uG4v_-18" value="Concrete observers can be any class that implements the observer interface.&lt;br&gt;Each observer registers with a concrete subject to receive updates" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="435" y="510" width="570" height="50" as="geometry" />
+          <mxGeometry x="510" y="440" width="570" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jA8gvH-j2A2Ros2uG4v_-19" value="&lt;h1&gt;Weather Forecase application - Observer pattern&lt;/h1&gt;&lt;p style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;- Create an application that uses the WeatherData object to update three displays for&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;1. Current conditions&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;2. Weather stats&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;3. A forecast&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;The system should be expandable so that other developers can create new custom display elements and users&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;can add or remove as many display elements as they want to the application.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="640" width="800" height="270" as="geometry" />
+          <mxGeometry x="100" y="640" width="880" height="270" as="geometry" />
         </mxCell>
         <mxCell id="jA8gvH-j2A2Ros2uG4v_-20" value="Weather Station" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="215" y="1080" width="120" height="60" as="geometry" />
@@ -161,6 +161,99 @@
         </mxCell>
         <mxCell id="jA8gvH-j2A2Ros2uG4v_-47" value="This class has been exposed by the&amp;nbsp;&lt;br&gt;weather station" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="10" y="1580" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-48" value="&lt;h1&gt;Observer Pattern&lt;/h1&gt;&lt;div&gt;defines a one-to-many dependency between objects so that when one object changes state,&lt;/div&gt;&lt;div&gt;all of its dependents are notified and updated automatically&lt;/div&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="24" y="-790" width="780" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-49" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="142" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-50" value="A concrete subject always implements&lt;br&gt;the subject interface.&lt;br&gt;In Addition to the register and remove&amp;nbsp;&lt;br&gt;methods, the concrete subject&amp;nbsp; implements&amp;nbsp;&lt;br&gt;a notifyObservers() method&lt;br&gt;that is used to update all the current&lt;br&gt;observers whenever state changes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-180" y="320" width="330" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-51" value="&lt;h1&gt;Power of loose coupling&lt;/h1&gt;&lt;div&gt;When two objects are loosely coupled, they can intract, but have very little knowledge of each other.&lt;/div&gt;&lt;div&gt;The observer pattern provides an object design pattern where subjects and observers are loosely coupled.&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;The only thing that the subject knows about an observer is that it implements a certain interface.(The observer interface)&lt;/li&gt;&lt;li&gt;We can add new observers at any time ;-&amp;gt; only thing that subject depends on is the list of objects that implements the observer interface. We can add new observers even replace the observers at runtime and still subject will follow along.&lt;/li&gt;&lt;li&gt;We never need to modify the subject to add new type of observers.&lt;/li&gt;&lt;li&gt;We can resuse subjects or observers independently of each other :-&amp;gt; since they are lossely coupled.&lt;/li&gt;&lt;li&gt;Changes to either subject or an observer will not affect the other.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="-400" width="786" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-52" value="&lt;h1&gt;Weather App V2&lt;/h1&gt;&lt;div&gt;Introducing the Observer pattern to tackle the desgin&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="1870" width="620" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-53" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ISubject&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ registerObserver()&lt;br&gt;+ removeObserver()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ notifyObservers()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getState()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setState()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="2030" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-54" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IObserver&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ update()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="2020" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-55" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IDisplay&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ display()&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="886" y="2030" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-71" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.001;entryY=0.106;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jA8gvH-j2A2Ros2uG4v_-56" target="jA8gvH-j2A2Ros2uG4v_-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-56" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CurrentConditionDisplay&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ update()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ display()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="2230" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-57" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=12;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jA8gvH-j2A2Ros2uG4v_-56" target="jA8gvH-j2A2Ros2uG4v_-54">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="430" y="2210" as="sourcePoint" />
+            <mxPoint x="590" y="2210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-59" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=12;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.797;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jA8gvH-j2A2Ros2uG4v_-56" target="jA8gvH-j2A2Ros2uG4v_-55">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="690" y="2240" as="sourcePoint" />
+            <mxPoint x="705" y="2150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-60" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;StatisticDisplay&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ update()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ display()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="886" y="2230" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-61" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=12;curved=1;entryX=0.671;entryY=1.014;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jA8gvH-j2A2Ros2uG4v_-60" target="jA8gvH-j2A2Ros2uG4v_-54">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="690" y="2240" as="sourcePoint" />
+            <mxPoint x="705" y="2150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-62" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jA8gvH-j2A2Ros2uG4v_-60" target="jA8gvH-j2A2Ros2uG4v_-55">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="738" y="2241" as="sourcePoint" />
+            <mxPoint x="896" y="2095" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-63" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ForecastDisplay&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ update()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ display()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="760" y="1870" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-64" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=12;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jA8gvH-j2A2Ros2uG4v_-63" target="jA8gvH-j2A2Ros2uG4v_-54">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="690" y="2240" as="sourcePoint" />
+            <mxPoint x="705" y="2150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-65" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=12;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jA8gvH-j2A2Ros2uG4v_-63" target="jA8gvH-j2A2Ros2uG4v_-55">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="700" y="2250" as="sourcePoint" />
+            <mxPoint x="715" y="2160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-66" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;WeatherData&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ observers : ArrayList&amp;lt;IObserver&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ registerObserver()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ removeObserver()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ notifyObserver()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getTemperature()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getHumidity()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPressure()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ mesurementChanged()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="95" y="2320" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-67" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jA8gvH-j2A2Ros2uG4v_-66" target="jA8gvH-j2A2Ros2uG4v_-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="2210" as="sourcePoint" />
+            <mxPoint x="600" y="2210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-68" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jA8gvH-j2A2Ros2uG4v_-53" target="jA8gvH-j2A2Ros2uG4v_-54">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="2210" as="sourcePoint" />
+            <mxPoint x="600" y="2210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-70" value="Observers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="2038" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jA8gvH-j2A2Ros2uG4v_-72" value="Subject" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="2298" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

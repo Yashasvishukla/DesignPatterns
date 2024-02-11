@@ -1,4 +1,6 @@
-﻿namespace DuckSimulator.FlyBehavior;
+﻿using System;
+
+namespace DuckSimulator.FlyBehavior;
 
 public class FlyRocketBehavior: IFlyBehavior 
 {

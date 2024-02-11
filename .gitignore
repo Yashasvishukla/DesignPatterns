@@ -1,3 +1,2 @@
-*obj
-*bin
-*.idea
+/Redis/Redis-playground/bin/
+/Redis/Redis-playground/obj/

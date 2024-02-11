@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Infra;
+namespace Infra.Dish;
 
 public class Dish
 {
@@ -30,8 +30,7 @@ public class DishIngredient
 
     [MaxLength(50)]
     public string UnitOfMeasure { get; set; } = string.Empty;
-
-    [Column(TypeName = "decimal(5,2")]
+    
     public decimal Amount { get; set; }
     
     

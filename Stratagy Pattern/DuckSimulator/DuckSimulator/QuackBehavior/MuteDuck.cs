@@ -1,4 +1,6 @@
-﻿namespace DuckSimulator;
+﻿using System;
+
+namespace DuckSimulator;
 
 public class MuteDuck: IQuackBehavior
 {

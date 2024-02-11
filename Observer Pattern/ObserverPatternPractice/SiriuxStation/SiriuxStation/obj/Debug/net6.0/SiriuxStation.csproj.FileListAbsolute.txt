@@ -3,3 +3,13 @@ E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxS
 E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxStation\obj\Debug\net6.0\SiriuxStation.AssemblyInfoInputs.cache
 E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxStation\obj\Debug\net6.0\SiriuxStation.AssemblyInfo.cs
 E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxStation\obj\Debug\net6.0\SiriuxStation.csproj.CoreCompileInputs.cache
+E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxStation\bin\Debug\net6.0\SiriuxStation.exe
+E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxStation\bin\Debug\net6.0\SiriuxStation.deps.json
+E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxStation\bin\Debug\net6.0\SiriuxStation.runtimeconfig.json
+E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxStation\bin\Debug\net6.0\SiriuxStation.dll
+E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxStation\bin\Debug\net6.0\SiriuxStation.pdb
+E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxStation\obj\Debug\net6.0\SiriuxStation.dll
+E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxStation\obj\Debug\net6.0\refint\SiriuxStation.dll
+E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxStation\obj\Debug\net6.0\SiriuxStation.pdb
+E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxStation\obj\Debug\net6.0\SiriuxStation.genruntimeconfig.cache
+E:\DesignPatterns\Observer Pattern\ObserverPatternPractice\SiriuxStation\SiriuxStation\obj\Debug\net6.0\ref\SiriuxStation.dll

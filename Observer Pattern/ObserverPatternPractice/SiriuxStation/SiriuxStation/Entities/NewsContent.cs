@@ -1,8 +1,8 @@
 ﻿namespace SiriuxStation.Entities;
 
-public class NewContent: IContent
+public class NewsContent: IContent
 {
-    public NewContent(string headline, string summary, string source)
+    public NewsContent(string headline, string summary, string source)
     {
         Headline = headline;
         Summary = summary;

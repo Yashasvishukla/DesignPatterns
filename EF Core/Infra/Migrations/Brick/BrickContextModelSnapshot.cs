@@ -40,6 +40,10 @@ namespace Infra.Migrations.Brick
                     b.Property<int>("Color")
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -47,6 +51,35 @@ namespace Infra.Migrations.Brick
                     b.HasKey("Id");
 
                     b.ToTable("Bricks");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("Brick");
+                });
+
+            modelBuilder.Entity("Infra.LegoModels.BrickAvailability", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("AvailableAmount")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("BrickId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(8 , 2)");
+
+                    b.Property<int>("VendorId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BrickId");
+
+                    b.HasIndex("VendorId");
+
+                    b.ToTable("BrickAvailabilities");
                 });
 
             modelBuilder.Entity("Infra.LegoModels.Tag", b =>
@@ -64,6 +97,44 @@ namespace Infra.Migrations.Brick
                     b.ToTable("Tags");
                 });
 
+            modelBuilder.Entity("Infra.LegoModels.Vendor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("VendorName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Vendors");
+                });
+
+            modelBuilder.Entity("Infra.LegoModels.BasePlate", b =>
+                {
+                    b.HasBaseType("Infra.LegoModels.Brick");
+
+                    b.Property<int>("Length")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Width")
+                        .HasColumnType("INTEGER");
+
+                    b.HasDiscriminator().HasValue("BasePlate");
+                });
+
+            modelBuilder.Entity("Infra.LegoModels.MinifigHead", b =>
+                {
+                    b.HasBaseType("Infra.LegoModels.Brick");
+
+                    b.Property<bool>("IsDualSided")
+                        .HasColumnType("INTEGER");
+
+                    b.HasDiscriminator().HasValue("MinifigHead");
+                });
+
             modelBuilder.Entity("BrickTag", b =>
                 {
                     b.HasOne("Infra.LegoModels.Brick", null)
@@ -77,6 +148,35 @@ namespace Infra.Migrations.Brick
                         .HasForeignKey("TagsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Infra.LegoModels.BrickAvailability", b =>
+                {
+                    b.HasOne("Infra.LegoModels.Brick", "Brick")
+                        .WithMany("Availabilities")
+                        .HasForeignKey("BrickId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Infra.LegoModels.Vendor", "Vendor")
+                        .WithMany("Availabilities")
+                        .HasForeignKey("VendorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Brick");
+
+                    b.Navigation("Vendor");
+                });
+
+            modelBuilder.Entity("Infra.LegoModels.Brick", b =>
+                {
+                    b.Navigation("Availabilities");
+                });
+
+            modelBuilder.Entity("Infra.LegoModels.Vendor", b =>
+                {
+                    b.Navigation("Availabilities");
                 });
 #pragma warning restore 612, 618
         }

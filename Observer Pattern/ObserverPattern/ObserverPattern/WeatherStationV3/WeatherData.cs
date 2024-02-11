@@ -1,6 +1,6 @@
 ﻿namespace ObserverPattern.WeatherStationV3;
 
-public class WeatherData: IObservable<WeatherData>
+public class WeatherData: IWeatherObservable<WeatherData>
 {
     private readonly ISet<IObserver<WeatherData>> _observers = new HashSet<IObserver<WeatherData>>();
 
@@ -26,7 +26,7 @@ public class WeatherData: IObservable<WeatherData>
             observer.OnError(new ArgumentException("Observer already registered"));
         }
 
-        return new Unsubscribe(_observers, observer);
+        return new Unsubscribe<WeatherData>(_observers, observer);
     }
 
 

@@ -1,12 +1,12 @@
 ﻿namespace ObserverPattern.WeatherStationV3;
 
-public class Unsubscribe: IDisposable
+public class Unsubscribe<T>: IDisposable
 {
-    private readonly ISet<IObserver<WeatherData>> _observers;
-    private readonly IObserver<WeatherData> _observer;
+    private readonly ISet<IObserver<T>> _observers;
+    private readonly IObserver<T> _observer;
 
-    public Unsubscribe(ISet<IObserver<WeatherData>> observers,
-        IObserver<WeatherData> observer
+    public Unsubscribe(ISet<IObserver<T>> observers,
+        IObserver<T> observer
         )
     {
         _observers = observers;

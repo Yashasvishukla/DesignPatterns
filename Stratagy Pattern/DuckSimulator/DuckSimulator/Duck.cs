@@ -1,4 +1,6 @@
-﻿namespace DuckSimulator;
+﻿using System;
+
+namespace DuckSimulator;
 
 /*
  * This is the class which will be used by the client

@@ -2,5 +2,7 @@
 
 public enum PaymentMode
 {
-    
+    DebitCard,
+    CreditCard,
+    NetBanking
 }

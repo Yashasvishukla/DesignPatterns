@@ -1,4 +1,5 @@
-﻿using DuckSimulator.FlyBehavior;
+﻿using System;
+using DuckSimulator.FlyBehavior;
 
 namespace DuckSimulator.Ducks;
 
