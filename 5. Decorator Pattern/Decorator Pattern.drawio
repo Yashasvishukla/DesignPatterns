@@ -1,0 +1,187 @@
+<mxfile host="app.diagrams.net" modified="2024-02-18T04:56:18.207Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="y79Oo0uKkrUQa8SnvmPR" version="23.1.5" type="browser">
+  <diagram name="Page-1" id="HE3MDnWpBKlMJJTB8PCI">
+    <mxGraphModel dx="941" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fp-xB88uqiHbfAE05xvC-1" value="&lt;h1&gt;Decorator Pattern&lt;/h1&gt;&lt;div&gt;We will examine the typical overuse of inheritance and we will learn how to decorate our classes at runtime using a form of object composition.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;We will be able to give our objects new responsibilities without making any code changes to the underlying classes.&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="120" width="630" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-2" value="&lt;i&gt;Beverage&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="350" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-3" value="description" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fp-xB88uqiHbfAE05xvC-2" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="fp-xB88uqiHbfAE05xvC-2" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-5" value="getDescription()&lt;br&gt;&lt;i&gt;cost()&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fp-xB88uqiHbfAE05xvC-2" vertex="1">
+          <mxGeometry y="60" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-22" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=-0.01;entryY=-0.098;entryDx=0;entryDy=0;entryPerimeter=0;" parent="fp-xB88uqiHbfAE05xvC-2" source="fp-xB88uqiHbfAE05xvC-10" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint y="183" as="sourcePoint" />
+            <mxPoint x="18" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-6" value="HouseBlend" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="525" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="fp-xB88uqiHbfAE05xvC-6" vertex="1">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-9" value="cost()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fp-xB88uqiHbfAE05xvC-6" vertex="1">
+          <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-10" value="DarkRoast" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="525" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="fp-xB88uqiHbfAE05xvC-10" vertex="1">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-13" value="cost()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fp-xB88uqiHbfAE05xvC-10" vertex="1">
+          <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-14" value="Decaf" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="525" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="fp-xB88uqiHbfAE05xvC-14" vertex="1">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-17" value="cost()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fp-xB88uqiHbfAE05xvC-14" vertex="1">
+          <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-18" value="Espresso" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="525" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="fp-xB88uqiHbfAE05xvC-18" vertex="1">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-20" value="cost()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fp-xB88uqiHbfAE05xvC-18" vertex="1">
+          <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-21" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.463;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.01;entryY=-0.098;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="fp-xB88uqiHbfAE05xvC-6" target="fp-xB88uqiHbfAE05xvC-5" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="490" as="sourcePoint" />
+            <mxPoint x="420" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-23" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.469;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.827;entryY=1.045;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="fp-xB88uqiHbfAE05xvC-14" target="fp-xB88uqiHbfAE05xvC-5" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="114" y="518" as="sourcePoint" />
+            <mxPoint x="348" y="426" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-24" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.529;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="fp-xB88uqiHbfAE05xvC-18" target="fp-xB88uqiHbfAE05xvC-5" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="124" y="528" as="sourcePoint" />
+            <mxPoint x="358" y="436" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-25" value="In addition to our coffee, we can also ask for serval condiments like steamed milk, soy, mocha, and have it all topped off with whipped milk. Starbuzz charge a bit for each of these.&lt;br&gt;&lt;br&gt;The problem would be, there will be lot many classes for all the combinations, we will run into &lt;b&gt;Class Explosion&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="640" width="680" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-26" value="We have created the maintenance nightmare. What happens when the price of the milk goes up -&amp;gt; we have to go to all the classes and have to modify the price of the milk&lt;br&gt;&lt;b&gt;The Design Principle we violate here are&amp;nbsp;&lt;/b&gt;&lt;br&gt;1. Open close principle&lt;br&gt;2. Not preferring the composition over inheritance" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="750" width="680" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-27" value="&lt;h1&gt;Can&#39;t we just use instance variables and inheritance in the superclass to keep track of the condiments&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="890" width="720" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-28" value="&lt;i&gt;Beverage&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="1000" width="220" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-29" value="description" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fp-xB88uqiHbfAE05xvC-28" vertex="1">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-34" value="milk" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fp-xB88uqiHbfAE05xvC-28" vertex="1">
+          <mxGeometry y="52" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-38" value="soy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fp-xB88uqiHbfAE05xvC-28" vertex="1">
+          <mxGeometry y="78" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-37" value="mocha" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fp-xB88uqiHbfAE05xvC-28" vertex="1">
+          <mxGeometry y="104" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-36" value="whip" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fp-xB88uqiHbfAE05xvC-28" vertex="1">
+          <mxGeometry y="130" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="fp-xB88uqiHbfAE05xvC-28" vertex="1">
+          <mxGeometry y="156" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-31" value="getDescription()&lt;br&gt;cost()&lt;br&gt;&lt;br&gt;hasMilk()&lt;br&gt;setMilk()&lt;br&gt;&lt;br&gt;hasSoy()&lt;br&gt;setSoy()&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;hasMocha()&lt;/div&gt;&lt;div&gt;setMocha()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;hasWhip()&lt;/div&gt;&lt;div&gt;setWhip()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fp-xB88uqiHbfAE05xvC-28" vertex="1">
+          <mxGeometry y="164" width="220" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-39" value="HouseBlend" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="1450" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-40" value="cost()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fp-xB88uqiHbfAE05xvC-39" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="fp-xB88uqiHbfAE05xvC-39" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-43" value="DarkRoast" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="254" y="1450" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-44" value="cost()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fp-xB88uqiHbfAE05xvC-43" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="fp-xB88uqiHbfAE05xvC-43" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-46" value="Decaf" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1450" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-47" value="cost()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fp-xB88uqiHbfAE05xvC-46" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-48" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="fp-xB88uqiHbfAE05xvC-46" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-49" value="Espresso" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="1450" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-50" value="cost()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fp-xB88uqiHbfAE05xvC-49" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-51" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="fp-xB88uqiHbfAE05xvC-49" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-52" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=-0.001;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="fp-xB88uqiHbfAE05xvC-39" target="fp-xB88uqiHbfAE05xvC-31" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="1450" as="sourcePoint" />
+            <mxPoint x="460" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-53" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.267;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="fp-xB88uqiHbfAE05xvC-43" target="fp-xB88uqiHbfAE05xvC-31" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="100" y="1460" as="sourcePoint" />
+            <mxPoint x="310" y="1391" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-54" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.317;exitY=0.04;exitDx=0;exitDy=0;entryX=0.804;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="fp-xB88uqiHbfAE05xvC-46" target="fp-xB88uqiHbfAE05xvC-31" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110" y="1470" as="sourcePoint" />
+            <mxPoint x="320" y="1401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-55" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.536;exitY=-0.023;exitDx=0;exitDy=0;entryX=0.992;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="fp-xB88uqiHbfAE05xvC-49" target="fp-xB88uqiHbfAE05xvC-31" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="1480" as="sourcePoint" />
+            <mxPoint x="330" y="1411" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-56" value="&lt;h1&gt;Impact of the design&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Price changes for condiments will force us to alter the existing code.&lt;/li&gt;&lt;li&gt;New condiments will force us to add new methods and alter the cost method in the super class&lt;/li&gt;&lt;li&gt;We may have new beverages. For some of these beverage like Ice Tea, the condiments may not be appropriate yet the Tea subclass will still inherit method like hasWhip()&lt;/li&gt;&lt;li&gt;Class Explosion&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="1620" width="730" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-57" value="&lt;h1&gt;Open Closed Principle&lt;/h1&gt;&lt;div&gt;Classes should be open for extension but closed for modification&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Our goal is to allow classes to be easily extended to incorporate new behaviour without modifying existing code.&lt;/div&gt;&lt;div&gt;Accomplish -&amp;gt; Design that are resilient to change and flexible enough to take on new functionality to meet changing requirement.&amp;nbsp;&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1830" width="710" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-xB88uqiHbfAE05xvC-58" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1990" width="570" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
