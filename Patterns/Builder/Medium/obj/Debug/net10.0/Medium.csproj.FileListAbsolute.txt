@@ -1,0 +1,5 @@
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Medium/obj/Debug/net10.0/Medium.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Medium/obj/Debug/net10.0/Medium.AssemblyInfoInputs.cache
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Medium/obj/Debug/net10.0/Medium.AssemblyInfo.cs
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Medium/obj/Debug/net10.0/Medium.csproj.CoreCompileInputs.cache
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Medium/obj/Debug/net10.0/Medium.sourcelink.json

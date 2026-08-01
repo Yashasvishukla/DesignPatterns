@@ -1,0 +1,15 @@
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/bin/Debug/net10.0/Builder
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/bin/Debug/net10.0/Builder.deps.json
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/bin/Debug/net10.0/Builder.runtimeconfig.json
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/bin/Debug/net10.0/Builder.dll
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/bin/Debug/net10.0/Builder.pdb
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/obj/Debug/net10.0/Builder.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/obj/Debug/net10.0/Builder.AssemblyInfoInputs.cache
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/obj/Debug/net10.0/Builder.AssemblyInfo.cs
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/obj/Debug/net10.0/Builder.csproj.CoreCompileInputs.cache
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/obj/Debug/net10.0/Builder.sourcelink.json
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/obj/Debug/net10.0/Builder.dll
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/obj/Debug/net10.0/refint/Builder.dll
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/obj/Debug/net10.0/Builder.pdb
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/obj/Debug/net10.0/Builder.genruntimeconfig.cache
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/obj/Debug/net10.0/ref/Builder.dll

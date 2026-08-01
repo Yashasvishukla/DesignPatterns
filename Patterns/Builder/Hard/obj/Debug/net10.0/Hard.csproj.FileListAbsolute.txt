@@ -1,0 +1,15 @@
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Hard/bin/Debug/net10.0/Hard
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Hard/bin/Debug/net10.0/Hard.deps.json
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Hard/bin/Debug/net10.0/Hard.runtimeconfig.json
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Hard/bin/Debug/net10.0/Hard.dll
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Hard/bin/Debug/net10.0/Hard.pdb
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Hard/obj/Debug/net10.0/Hard.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Hard/obj/Debug/net10.0/Hard.AssemblyInfoInputs.cache
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Hard/obj/Debug/net10.0/Hard.AssemblyInfo.cs
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Hard/obj/Debug/net10.0/Hard.csproj.CoreCompileInputs.cache
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Hard/obj/Debug/net10.0/Hard.sourcelink.json
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Hard/obj/Debug/net10.0/Hard.dll
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Hard/obj/Debug/net10.0/refint/Hard.dll
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Hard/obj/Debug/net10.0/Hard.pdb
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Hard/obj/Debug/net10.0/Hard.genruntimeconfig.cache
+/Users/yashasvishukla/Documents/interview-preparation/DesignPatterns/Patterns/Builder/Hard/obj/Debug/net10.0/ref/Hard.dll
